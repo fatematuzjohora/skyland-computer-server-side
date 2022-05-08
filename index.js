@@ -28,7 +28,6 @@ function verifyJWT(req, res, next) {
 }
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@skyland.kkodo.mongodb.net/?retryWrites=true&w=majority`;
-console.log(uri)
 
 
 const client = new MongoClient(uri, {
