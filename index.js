@@ -134,6 +134,6 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log("SkyLand server running in port", port);
 });
-
+console.log(port);
 
 // heroku Api: https://skyland-computer.herokuapp.com
